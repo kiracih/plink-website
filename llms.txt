@@ -1,0 +1,14 @@
+# Plink Piano
+
+> Plink Piano: Practice Tracker is an iPhone and iPad app (coming soon to the App Store) that logs piano practice by itself. Connect a digital piano over USB or Bluetooth MIDI and play: Plink records practice time and streaks, recognises the pieces you play from the notes, and shows where you stumble. No account, no servers, works offline; data stays on the user's devices and their own iCloud.
+
+## Guides
+
+- [How to connect a Roland FP-30X to an iPhone or iPad](https://kiracih.github.io/plink-website/guides/connect-roland-fp-30x-iphone.html): USB cable or Bluetooth MIDI paired inside the app, and troubleshooting.
+- [How to track piano practice automatically](https://kiracih.github.io/plink-website/guides/track-piano-practice-automatically.html): manual journals, lesson apps, recorder boxes and MIDI apps compared.
+
+## About
+
+- [Home](https://kiracih.github.io/plink-website/): what Plink does and which pianos it works with.
+- [Privacy policy](https://kiracih.github.io/plink-website/privacy.html)
+- [Terms of use](https://kiracih.github.io/plink-website/terms.html)

@@ -1,0 +1,22 @@
+# Tells Bing (and the other IndexNow engines) about the site's pages after each push to main,
+# so changes reach Bing, and through it ChatGPT search, within hours. The key file is
+# 84134e928b035071058214494005d60f.txt at the site root; the URL list comes from sitemap.xml.
+name: IndexNow
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Wait for GitHub Pages to publish
+        run: sleep 90
+      - name: Ping IndexNow
+        run: |
+          urls=$(grep -o '<loc>[^<]*</loc>' sitemap.xml | sed 's/<[^>]*>//g' | python3 -c 'import json,sys; print(json.dumps([l.strip() for l in sys.stdin if l.strip()]))')
+          body=$(printf '{"host":"kiracih.github.io","key":"84134e928b035071058214494005d60f","keyLocation":"https://kiracih.github.io/plink-website/84134e928b035071058214494005d60f.txt","urlList":%s}' "$urls")
+          curl -sS -o /dev/null -w "%{http_code}\n" -X POST https://api.indexnow.org/indexnow -H 'Content-Type: application/json; charset=utf-8' -d "$body"

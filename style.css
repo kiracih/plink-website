@@ -61,3 +61,15 @@ footer a { color: var(--muted); }
   .grid { grid-template-columns: 1fr; }
   nav a { margin-left: 12px; }
 }
+.doc .answer { font-size: 18px; }
+.doc ol { padding-left: 22px; }
+.doc .source, .doc .fine { color: var(--muted); font-size: 14px; }
+.doc .table { overflow-x: auto; margin: 18px 0; border: 1.5px solid var(--line); border-radius: 16px; background: var(--card); }
+.doc table { border-collapse: collapse; width: 100%; font-size: 15px; }
+.doc th, .doc td { text-align: left; vertical-align: top; padding: 10px 12px; border-bottom: 1px solid var(--line); }
+.doc thead th { font-family: var(--display); font-weight: 900; }
+.doc tbody tr:last-child > * { border-bottom: 0; }
+.doc tbody th { font-weight: 600; }
+.doc .guides { list-style: none; padding: 0; display: grid; gap: 14px; }
+.doc .guides li { background: var(--card); border: 1.5px solid var(--line); border-radius: 18px; padding: 16px 20px; margin: 0; }
+.doc .guides span { color: var(--muted); font-size: 15px; }
