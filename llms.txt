@@ -6,10 +6,10 @@
 
 - [How to connect a Roland FP-30X to an iPhone or iPad](https://kiracih.github.io/plink-website/guides/connect-roland-fp-30x-iphone.html): USB cable or Bluetooth MIDI paired inside the app, and troubleshooting.
 - [How to track piano practice automatically](https://kiracih.github.io/plink-website/guides/track-piano-practice-automatically.html): manual journals, lesson apps, recorder boxes and MIDI apps compared.
-- [Roland Piano App vs Plink: can you use both?](https://kiracih.github.io/plink-website/guides/roland-piano-app-and-plink.html): what each does; Plink over USB, Roland's app over Bluetooth.
+- [Roland Piano App vs Plink: can you use both?](https://kiracih.github.io/plink-website/guides/roland-piano-app-and-plink.html): what each does; both can share one Bluetooth connection on the same iPhone (tested on an FP-30X).
 - [Yamaha Smart Pianist vs Plink: can you use both?](https://kiracih.github.io/plink-website/guides/yamaha-smart-pianist-and-plink.html): what each does; how to connect both on Yamaha pianos.
-- [Kawai PianoRemote vs Plink: can you use both?](https://kiracih.github.io/plink-website/guides/kawai-pianoremote-and-plink.html): what each does; Plink over USB, PianoRemote over Bluetooth.
-- [Using forScore with a digital piano and a practice tracker](https://kiracih.github.io/plink-website/guides/forscore-and-plink.html): forScore counts time a score is open, Plink counts playing; Plink over USB, forScore over Bluetooth.
+- [Kawai PianoRemote vs Plink: can you use both?](https://kiracih.github.io/plink-website/guides/kawai-pianoremote-and-plink.html): what each does; one Bluetooth device per piano; apps on that device share it.
+- [Using forScore with a digital piano and a practice tracker](https://kiracih.github.io/plink-website/guides/forscore-and-plink.html): forScore counts time a score is open, Plink counts playing; one Bluetooth device per piano, so a second device uses USB.
 
 ## About
 
