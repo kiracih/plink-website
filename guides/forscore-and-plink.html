@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Using forScore with a digital piano and a practice tracker</title>
+<meta name="description" content="forScore can connect to your digital piano over Bluetooth MIDI for page turns, but most pianos accept one Bluetooth MIDI app at a time. How to run forScore on the iPad and a practice tracker like Plink together.">
+<link rel="canonical" href="https://kiracih.github.io/plink-website/guides/forscore-and-plink.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Using forScore with a digital piano and a practice tracker">
+<meta property="og:description" content="forScore can connect to your digital piano over Bluetooth MIDI for page turns, but most pianos accept one Bluetooth MIDI app at a time. How to run forScore on the iPad and a practice tracker like Plink together.">
+<meta property="og:url" content="https://kiracih.github.io/plink-website/guides/forscore-and-plink.html">
+<meta property="og:image" content="https://kiracih.github.io/plink-website/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="../favicon.png">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@800;900&family=Inter+Tight:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="../style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Using forScore with a digital piano and a practice tracker",
+  "description": "forScore can connect to your digital piano over Bluetooth MIDI for page turns, but most pianos accept one Bluetooth MIDI app at a time. How to run forScore on the iPad and a practice tracker like Plink together.",
+  "datePublished": "2026-11-12",
+  "dateModified": "2026-11-12",
+  "mainEntityOfPage": "https://kiracih.github.io/plink-website/guides/forscore-and-plink.html",
+  "publisher": { "@type": "Organization", "name": "Plink Piano", "url": "https://kiracih.github.io/plink-website/" }
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+<header class="top">
+  <a class="brand" href=".././"><img src="../icon-256.png" alt="">Plink</a>
+  <nav><a href="../guides/">Guides</a><a href="../privacy.html">Privacy</a><a href="../terms.html">Terms</a></nav>
+</header>
+<main class="doc">
+<h1>Using forScore with a digital piano and a practice tracker</h1>
+<p class="updated">Last updated <time datetime="2026-11-12">12 November 2026</time></p>
+
+<p class="answer"><b>Short answer:</b> yes, you can use both. Most digital pianos accept <b>one Bluetooth MIDI connection at a time</b>, and forScore can take it for page turns. So connect the practice tracker with a <b>USB cable</b> and leave Bluetooth to forScore, or the other way round. forScore counts the time a score is open; Plink counts the time you actually play.</p>
+
+<h2>What each app does</h2>
+<div class="table"><table>
+<thead><tr><th></th><th>forScore</th><th>Plink</th></tr></thead>
+<tbody>
+<tr><th scope="row">Shows and annotates your scores</th><td>Yes</td><td>No</td></tr>
+<tr><th scope="row">Page turns from pedals, the keyboard or MIDI</th><td>Yes</td><td>No</td></tr>
+<tr><th scope="row">Practice time</th><td>Time a score is open, if you allow tracking (Dashboard)</td><td>Time you actually play, read from the piano's MIDI</td></tr>
+<tr><th scope="row">Goals</th><td>Views or play time per day, week or month</td><td>Daily goal</td></tr>
+<tr><th scope="row">Streaks</th><td>No</td><td>Yes</td></tr>
+<tr><th scope="row">Works without a score</th><td>No</td><td>Yes, it logs anything you play</td></tr>
+<tr><th scope="row">Price (November 2026)</th><td>$24.99, optional Pro $14.99 a year</td><td>Coming soon to the App Store</td></tr>
+</tbody>
+</table></div>
+<p class="source">Sources (read 12 November 2026): forScore user guide on <a href="https://forscore.co/documentation/settings/">settings</a>, <a href="https://forscore.co/documentation/dashboard/">Dashboard</a> and <a href="https://forscore.co/documentation/page-turners/">page turners</a>, and its App Store listing; Kawai's FAQ on one Bluetooth MIDI connection per piano (ca.kawaius.com).</p>
+
+<h2>Set-up that works</h2>
+<ol>
+  <li><b>iPhone with Plink:</b> connect it to the piano's USB port with a cable. Plink starts logging from the first note.</li>
+  <li><b>iPad with forScore on the music stand:</b> in forScore, open Settings → MIDI → Bluetooth MIDI devices and connect the piano if you want MIDI page turns. Otherwise use a Bluetooth page-turn pedal, which doesn't use the piano's MIDI link.</li>
+  <li><b>Only Bluetooth, no cable?</b> Pick one app for the piano's Bluetooth MIDI. Turn pages with a pedal or by tapping in forScore, and let Plink have the piano.</li>
+</ol>
+
+<h2>If an app can't find the piano</h2>
+<ul>
+  <li>Disconnect the piano in the other app (in forScore: Settings → MIDI → Bluetooth MIDI devices), then try again.</li>
+  <li>Use a USB cable. It always works.</li>
+</ul>
+<p>See also: <a href="track-piano-practice-automatically.html">How to track piano practice automatically</a>.</p>
+
+<p class="fine">Plink is our app. forScore is a trademark of its owner. Plink is not affiliated with forScore.</p>
+</main>
+<footer>
+  <span>© 2026 Plink Piano</span>
+  <a href="../guides/">Guides</a>
+  <a href="../privacy.html">Privacy policy</a>
+  <a href="../terms.html">Terms of use</a>
+  <a href="https://github.com/kiracih/plink-website/issues">Contact</a>
+  <span>Roland, Yamaha, Kawai, Casio and other product names are trademarks of their owners; Plink is not affiliated with them.</span>
+</footer>
+</div>
+</body>
+</html>
