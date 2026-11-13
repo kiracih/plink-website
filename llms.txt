@@ -5,7 +5,7 @@
 ## Guides
 
 - [How to connect a Roland FP-30X to an iPhone or iPad](https://kiracih.github.io/plink-website/guides/connect-roland-fp-30x-iphone.html): USB cable or Bluetooth MIDI paired inside the app, and troubleshooting.
-- [How to track piano practice automatically](https://kiracih.github.io/plink-website/guides/track-piano-practice-automatically.html): manual journals, lesson apps, recorder boxes and MIDI apps compared.
+- [How to track piano practice automatically](https://kiracih.github.io/plink-website/guides/track-piano-practice-automatically.html): manual journals, lesson apps, simple MIDI timers, recorder boxes and Plink compared.
 - [Roland Piano App vs Plink: can you use both?](https://kiracih.github.io/plink-website/guides/roland-piano-app-and-plink.html): what each does; both can share one Bluetooth connection on the same iPhone (tested on an FP-30X).
 - [Yamaha Smart Pianist vs Plink: can you use both?](https://kiracih.github.io/plink-website/guides/yamaha-smart-pianist-and-plink.html): what each does; how to connect both on Yamaha pianos.
 - [Kawai PianoRemote vs Plink: can you use both?](https://kiracih.github.io/plink-website/guides/kawai-pianoremote-and-plink.html): what each does; one Bluetooth device per piano; apps on that device share it.
