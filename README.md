@@ -5,6 +5,7 @@ Static HTML and CSS, no build step, served by GitHub Pages from `main` at the ro
 
 - `index.html`: the home page.
 - `privacy.html`: the privacy policy. App Store Connect's privacy policy URL points here.
+- `support.html`: help and contact. App Store Connect's support URL points here; swap the GitHub issues link for the support email once the owner picks one.
 - `terms.html`: the terms of use. Subscriptions use Apple's standard EULA plus these terms.
 - `guides/`: answer pages for search engines and AI assistants (GEO plan:
   /mnt/project-files/website/geo/plan.md). Each answers in its first lines, carries a

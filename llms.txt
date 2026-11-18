@@ -16,3 +16,4 @@
 - [Home](https://kiracih.github.io/plink-website/): what Plink does and which pianos it works with.
 - [Privacy policy](https://kiracih.github.io/plink-website/privacy.html)
 - [Terms of use](https://kiracih.github.io/plink-website/terms.html)
+- [Support](https://kiracih.github.io/plink-website/support.html): connecting a piano, Plink Plus, restoring purchases, your data, contact.
